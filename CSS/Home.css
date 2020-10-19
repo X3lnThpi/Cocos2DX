@@ -1,0 +1,23 @@
+.Wrapper {
+  display: grid;
+  grid-template-columns: [col1-start] 371px [col1-end] 16px [col2-start] 371px [col2-end] 16px [col3-start] 371px [col3-end] 16px [col4-start] 371px [col4-end] 16px [col5-start] 371px [col5-end];
+  grid-template-rows: 200px 30px auto;
+  background-color: darkgrey;
+}
+
+.Box1 {
+  grid-column: col1-start/col2-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: deepskyblue;
+}
+
+.Box2 {
+  grid-column: col4-start/col5-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: green;
+  opacity: 0.3;
+}
+
+/*# sourceMappingURL=Home.css.map */
